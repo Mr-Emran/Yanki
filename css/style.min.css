@@ -757,5 +757,5 @@ transition: letter-spacing 0.5s, left 0.5s;
 }
 
 .sel_ops{
-background: none;
+background-color: white;
 }
