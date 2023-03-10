@@ -755,3 +755,7 @@ transition: letter-spacing 0.5s, left 0.5s;
        font-weight: 400;
       }
 }
+
+.sel_ops{
+background: none;
+}
