@@ -17,12 +17,14 @@
   background-image: url(../img/yanki_img.jpg);
   background-position: center;
   background-size: cover;
+ 
 }
 
 .container {
   max-width: 1140px;
   margin: 0px auto;
   padding: 24px 0px 74px 0px;
+  
 }
 
 .header {
@@ -31,12 +33,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
+ 
 }
 .header-left {
-  height: 100%;
+
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
+  
 }
 .header-left a {
   color: white;
@@ -229,7 +234,7 @@ text-align: center  ;
 
 .wrap-subscription {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -553,12 +558,13 @@ text-align: center  ;
 
 
 .menu_activ{
-  width: 100%;
+  width: 350px;
  
-  height: 300px;
+  height: 100vh;
   
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1020%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 242%2c 231%2c 1)'%3e%3c/rect%3e%3cpath d='M639.08 630.31C723.32 622.08 686.85 453.56 921.31 443.29 1155.78 433.02 1334.52 228.65 1485.78 224.89' stroke='rgba(255%2c 158%2c 77%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M663.82 639.86C788.22 562.59 721.67 130.31 945.24 126.09 1168.8 121.87 1357.19 340.71 1508.07 344.49' stroke='rgba(255%2c 158%2c 77%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M411.74 574.39C586.52 559.87 704.85 206.28 1008.34 205.32 1311.82 204.36 1451.41 349.87 1604.93 350.92' stroke='rgba(255%2c 158%2c 77%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M142.58 596.17C292.9 568.76 357.19 197.27 601.16 192.12 845.13 186.97 830.45 262.12 1059.74 262.12 1289.03 262.12 1402.35 192.32 1518.32 192.12' stroke='rgba(255%2c 158%2c 77%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M155.01 569.13C281.85 558.81 366.51 304.22 588.95 303 811.38 301.78 805.91 373 1022.88 373 1239.85 373 1346.93 303.22 1456.82 303' stroke='rgba(255%2c 158%2c 77%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1020'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
   /* background-color: #f7e9dd; */
+  opacity: 0.8;
   position: absolute;
   z-index: 3;
   padding: 15px;
@@ -762,3 +768,11 @@ background-color: white;
 #a_color{
   color: #E0BEA2;
 }
+
+
+
+ 
+
+  
+
+
