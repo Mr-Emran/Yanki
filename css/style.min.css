@@ -774,5 +774,21 @@ background-color: white;
  
 
   
+.reklama{
+ 
+  width: 400px;
+  height: 200px;
+  background-color: #E0BEA2;
+  position: fixed;
+  top: 50%;
+  opacity: 0.9;
+  padding: 10px;
+  z-index: 5;
+  transition: 0.5s;
+ 
+}
 
+.img_reklama{
+  margin-top: 120px;
+}
 

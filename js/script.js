@@ -1,6 +1,6 @@
 AOS.init({
     disable: false,
-})
+});
 
 new Swiper(".mySwiper", {
     scrollbar: {
@@ -52,6 +52,8 @@ function scrl() {
 }
 
 
+let reklama = doc.querySelector('.reklama')
+
 function scrl2() {
     event.preventDefault()
     window.scrollTo({
@@ -59,7 +61,12 @@ function scrl2() {
         left:0,
         behavior: "smooth"
     })
+
+
 }
+
+
+
 
 
 link1.addEventListener("click", scrl)
@@ -68,15 +75,16 @@ link2.addEventListener("click", scrl)
 
 
 link3.addEventListener("click", scrl2)
-
-
-menu_btn2.addEventListener('keyup', (event) => {
-    if (event.keyCode === 27) {
-        menu_activ.style = "transform: translateX(-400px)"
-        body.style.overflow = 'auto'
+window.onscroll = () => {
+    if(window.scrollY > 281 ){
+        reklama.style = 'transform: translateX(0)'
+        setTimeout(() => {
+            reklama.style = 'transform: translateX(-1000px)'
+        }, 3000);
+    }else {
+       reklama.style = 'transform: translateX(-1000px)'
     }
-})
-
+}
 
 
 
